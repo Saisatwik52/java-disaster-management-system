@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<servlet>
+	<servlet-name>FirstDemo1</servlet-name>
+	<jsp-file>/Sign.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FirstDemo1</servlet-name>
+	<url-pattern>/Sign</url-pattern>
+</servlet-mapping>
+ <servlet>
+	<servlet-name>SecDemo1</servlet-name>
+	<jsp-file>/ValidAdmin.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SecDemo1</servlet-name>
+	<url-pattern>/ValidAdmin</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>ThirdDemo1</servlet-name>
+	<jsp-file>/ValidUser.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>ThirdDemo1</servlet-name>
+	<url-pattern>/ValidUser</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>FourDemo1</servlet-name>
+	<jsp-file>/Logout.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FourDemo1</servlet-name>
+	<url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>FiveDemo1</servlet-name>
+	<jsp-file>/Insert2.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>FiveDemo1</servlet-name>
+	<url-pattern>/Insert2</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>SixDemo1</servlet-name>
+	<jsp-file>/Insert1.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SixDemo1</servlet-name>
+	<url-pattern>/Insert1</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>SevDemo1</servlet-name>
+	<jsp-file>/Cas.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>SevDemo1</servlet-name>
+	<url-pattern>/Cas</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>EigDemo1</servlet-name>
+	<jsp-file>/Volun.jsp</jsp-file>
+</servlet>
+<servlet-mapping>
+	<servlet-name>EigDemo1</servlet-name>
+	<url-pattern>/Volun</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

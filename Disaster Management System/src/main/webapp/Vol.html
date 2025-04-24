@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa; /* Light gray background */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        margin-top: 50px; /* Adjust margin-top as needed */
+        display: inline-block;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        display: block;
+        width: calc(100% - 22px); /* Adjust width to accommodate for the padding */
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px; /* Add margin-bottom */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007bff; /* Blue submit button */
+        color: #fff; /* White text color */
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+</style>
+</head>
+<body>
+<form action="Volun.jsp" >
+Enter name <input type="text" name="t15">
+Enter contact number <input type="number" name="t16">
+Enter  Gender<input type="text" name="t17">
+Enter Age <input type="text" name="t18">
+<input type="submit"  value="Register">
+</form>
+</body>
+</html>

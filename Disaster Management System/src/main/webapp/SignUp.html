@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #B2FFFF; /* Light gray background */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        margin-top: 50px; /* Adjust margin-top as needed */
+    }
+
+    .input-container {
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"] {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 200px; /* Adjust width as needed */
+        box-sizing: border-box; /* Ensure padding and border don't affect width */
+    }
+
+    input[type="submit"] {
+        background-color: #007bff; /* Blue submit button */
+        color: #fff; /* White text color */
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+</style>
+</head>
+<body>
+<form action="Sign.jsp">
+    <div class="input-container">
+        Enter the Username <br>
+        <input type="text" name="t1">
+    </div>
+    <div class="input-container">
+        Enter the Password <br>
+        <input type="password" name="t2">
+    </div>
+    <input type="submit" value="submit">
+</form></body>
+</html>

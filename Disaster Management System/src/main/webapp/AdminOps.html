@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #B2FFFF;/* Light gray background */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .card {
+        display: block; /* Changed display to block */
+        margin: 20px auto; /* Added auto to center the cards horizontally */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        width: 300px; /* Optional: Set a width for the cards */
+    }
+
+    form {
+        margin: 0;
+    }
+
+    input[type="submit"] {
+        padding: 10px 20px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: 2px solid #007bff; /* Blue border */
+        background-color: #007bff; /* Blue submit button */
+        color: #fff; /* White text color */
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        border-color: #0056b3; /* Darker border color on hover */
+    }
+</style>
+</head>
+<body>
+<div class="card">
+    <form action="Insert11.html">
+        <input type="submit" value="Insert record">
+    </form>
+</div>
+
+<div class="card">
+    <form action="InsertCas.html">
+        <input type="submit" value="Enter casualties">
+    </form>
+</div>
+
+<div class="card">
+    <form action="Logout.jsp">
+        <input type="submit" value="Logout">
+    </form>
+</div>
+</body>
+</html>

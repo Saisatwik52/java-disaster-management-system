@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f8f9fa; /* Light gray background */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        margin-top: 50px; /* Adjust margin-top as needed */
+        display: inline-block;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+
+    input[type="number"],
+    input[type="text"],
+    input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    input[type="submit"] {
+        background-color: #007bff; /* Blue submit button */
+        color: #fff; /* White text color */
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+</style>
+</head>
+<body>
+<form action="Cas.jsp">
+Enter no of casulaties <input type="number" name="t14">
+Enter the disaster <input type="text" name="t15" >
+Enter the Place <input type="text" name="t16" >
+<input type="submit" value="submit">
+
+</form>
+</body>
+</html>
